@@ -1,21 +1,21 @@
 Simbologia de Instrumentação para Planta Industrial
 -Visão Geral
-Este repositório fornece a simbologia de instrumentação para uma planta industrial que possui três tanques. Os dois primeiros tanques enviam líquido para o terceiro tanque. Cada tanque está equipado com bombas, válvulas controladoras de vazão e indicadores de nível. As bombas possuem transmissores de vibração. O controle da planta é realizado por um Controlador Lógico Programável (CLP), que se comunica com um sistema de supervisão industrial (SCADA).
+  Este repositório fornece a simbologia de instrumentação para uma planta industrial que possui três tanques. Os dois primeiros tanques enviam líquido para o terceiro tanque. Cada tanque está equipado com bombas, válvulas controladoras de vazão e indicadores de nível. As bombas possuem transmissores de vibração. O controle da planta é realizado por um Controlador Lógico Programável (CLP), que se comunica com um sistema de supervisão industrial (SCADA).
 
 -Diagrama de Instrumentação
-O diagrama de instrumentação é representado usando a seguinte simbologia:
+  O diagrama de instrumentação é representado usando a seguinte simbologia:
 
 1. Tanques
 Tanque 1 (T1)
 Tanque 2 (T2)
 Tanque 3 (T3)
-Cada tanque é representado por um retângulo ou caixa, rotulado com "T1", "T2" ou "T3".
+  Cada tanque é representado por um retângulo ou caixa, rotulado com "T1", "T2" ou "T3".
 
 2. Bombas
 Bomba 1 (B1)
 Bomba 2 (B2)
 Bomba 3 (B3)
-Cada bomba é representada por um círculo ou símbolo específico com a sigla "B1", "B2" ou "B3". As bombas são responsáveis por movimentar o líquido para dentro de cada tanque.
+  Cada bomba é representada por um círculo ou símbolo específico com a sigla "B1", "B2" ou "B3". As bombas são responsáveis por movimentar o líquido para dentro de cada tanque.
 
 3. Válvulas Controladoras de Vazão
 Válvula de Entrada 1 (FCV1)
@@ -38,12 +38,10 @@ Transmissor de Vibração 3 (TV3)
 Os transmissores de vibração são representados por pequenos círculos ou ícones com a sigla "TV1", "TV2" ou "TV3", localizados próximos às bombas. Eles monitoram a vibração das bombas para garantir seu funcionamento adequado.
 
 6. Controlador Lógico Programável (CLP)
-CLP (PLC)
-O CLP é representado por um retângulo ou caixa com a sigla "PLC". Ele gerencia e controla os processos da planta, incluindo bombas e válvulas.
+CLP (PLC) - O CLP é representado por um retângulo ou caixa com a sigla "PLC". Ele gerencia e controla os processos da planta, incluindo bombas e válvulas.
 
 7. Sistema de Supervisão Industrial (SCADA)
-SCADA
-O sistema de supervisão é representado por um ícone de computador ou estação de trabalho com a sigla "SCADA". Ele se comunica com o CLP para fornecer monitoramento e controle centralizados da planta.
+SCADA - O sistema de supervisão é representado por um ícone de computador ou estação de trabalho com a sigla "SCADA". Ele se comunica com o CLP para fornecer monitoramento e controle centralizados da planta.
 
 Fluxo de Processo
 O diagrama mostra o fluxo do líquido entre os tanques, com as bombas movimentando o líquido e as válvulas controlando a vazão. Indicadores de nível monitoram o nível de líquido em cada tanque, enquanto transmissores de vibração monitoram as bombas. O CLP gerencia todos os dispositivos de controle, enquanto o SCADA fornece a supervisão e o controle centralizados.
