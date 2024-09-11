@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/0958f771-c201-470b-9d52-ac2639c82c91)Simbologia de Instrumentação para Planta Industrial
+Simbologia de Instrumentação para Planta Industrial
 -Visão Geral
 Este repositório fornece a simbologia de instrumentação para uma planta industrial que possui três tanques. Os dois primeiros tanques enviam líquido para o terceiro tanque. Cada tanque está equipado com bombas, válvulas controladoras de vazão e indicadores de nível. As bombas possuem transmissores de vibração. O controle da planta é realizado por um Controlador Lógico Programável (CLP), que se comunica com um sistema de supervisão industrial (SCADA).
 
